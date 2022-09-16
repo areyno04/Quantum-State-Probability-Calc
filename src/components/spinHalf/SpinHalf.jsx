@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Spin_Half = () => {
+const SpinHalf = () => {
   return (
     <section id='spinHalf'>
       <div>Spin Half</div>
@@ -8,4 +8,4 @@ const Spin_Half = () => {
   )
 }
 
-export default Spin_Half
+export default SpinHalf
