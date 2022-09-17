@@ -1,7 +1,9 @@
 import React from 'react'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
-import Spin_Half from './components/spinHalf/SpinHalf'
+import SpinHalf from './components/spinHalf/SpinHalf'
+import SpinOne from './components/spinOne/SpinOne'
+import Motivation from './components/motivation/Motivation'
 
 const App = () => {
   return (
@@ -9,6 +11,8 @@ const App = () => {
         <Header />
         <Nav />
         <SpinHalf />
+        <SpinOne />
+        <Motivation />
     </>
   )
 }

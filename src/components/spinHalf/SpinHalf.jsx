@@ -1,4 +1,5 @@
 import React from 'react'
+import './spinHalf.css'
 
 const SpinHalf = () => {
   return (
