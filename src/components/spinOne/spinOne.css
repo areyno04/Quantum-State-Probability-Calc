@@ -1,0 +1,64 @@
+.container.calculator2__container {
+    width: 50%;
+    display:grid;
+    grid-template-columns: 15% 30% 0% 10%;
+    column-gap: 2rem;
+    gap: 12%;
+}
+
+.calc2__titles{
+    display:flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.calc2__title {
+    background: var(--color-bg-variant);
+    padding: 1.7rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+/*======================= Form/Button ==============================*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input,
+textarea {
+    width: 40%;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize:none;
+    color: var(--color-white);
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+/*============================== Output===================================*/
+
+.calc2__probabilities {
+    display:flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.calc2 {
+    background: var(--color-bg-variant);
+    padding: 1.7rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}

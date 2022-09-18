@@ -1,10 +1,10 @@
 import React from 'react'
 import './nav.css'
-import{useState} from 'react'
 import {TbCircleHalf2} from 'react-icons/tb'
-import {FaCircle} from 'react-icon/FaCircle'
+import {FaCircle} from 'react-icons/fa'
 import {BsLightbulb} from 'react-icons/bs'
 import {RiHomeSmileFill} from 'react-icons/ri'
+import{useState} from 'react'
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
