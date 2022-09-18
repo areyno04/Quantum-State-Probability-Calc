@@ -1,6 +1,7 @@
 import React from 'react'
 import './spinOne.css'
 
+
 const spinOne = () => {
   return (
     <section id='spinOne'>
@@ -34,7 +35,6 @@ const spinOne = () => {
         </div>
       </div>
     </section>
-  )
   )
 }
 
