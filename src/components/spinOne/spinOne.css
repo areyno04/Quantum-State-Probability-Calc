@@ -1,7 +1,7 @@
 .container.calculator2__container {
     width: 50%;
     display:grid;
-    grid-template-columns: 15% 30% 0% 10%;
+    grid-template-columns: 20% 30% 0% 10%;
     column-gap: 2rem;
     gap: 12%;
 }
@@ -19,6 +19,15 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+}
+
+.info2 {
+    display:flex;
+    flex-direction: column;
+    margin: 2rem 0 2.5rem;
+    color: var(--color-light);
+    text-align: center;
+    padding-bottom: 30rem;
 }
 
 /*======================= Form/Button ==============================*/
